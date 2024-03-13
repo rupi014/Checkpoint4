@@ -1,10 +1,12 @@
 # Exercise 1
 
+from decimal import Decimal
+
 list = ["Rubens", "Ballester", "Lillo", "Laura", "Fernandez"]
 tuple = ("Juan", "Javier", "Jose", "Josefa", "Pedro")
 float = 3.30
 int = 144
-decimal = 3.458999
+decimal = Decimal(3.458999)
 dictionary = {"name": "Rubens", "age": "18", "city": "Bilbao"}
 
 # Exercise 2
@@ -39,5 +41,6 @@ list.sort()
 # Exercise 9
 
 tuple += ("Isidoro",)
+
 
 
